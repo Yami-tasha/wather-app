@@ -5,9 +5,9 @@ body {
 
 h1 {
     color: #878787;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 100;
-    line-height: 28px;
+    line-height: 32px;
     font-family: "Caveat", cursive;
     margin-bottom: 0;
 }
@@ -23,6 +23,7 @@ li {
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
+    font-family: "Caveat", cursive;
 }
 li:first-letter{
     text-transform: capitalize;
@@ -57,4 +58,7 @@ li:first-letter{
     position: relative;
     font-size: 16px;
     top: -34px;
+}
+.coded {
+    font-family: "Caveat", cursive;
 }
