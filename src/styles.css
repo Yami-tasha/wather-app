@@ -2,15 +2,7 @@ body {
     font-family: arial, sans-serif;
     background-color: #fcb8b8;
 }
-.wather-app {
-    width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    border: 2px solid #ff9ab0;;
-    border-radius: 15px;
-    background:white;
-    box-shadow: 0 5px 3px 2px #698474;
-}
+
 h1 {
     color: #878787;
     font-size: 24px;
@@ -31,4 +23,36 @@ li {
     font-size: 16px;
     font-weight: 100;
     line-height: 19px;
+}
+
+.wather-app-wrapper{
+    width: 600px;
+    margin: 30px auto;
+}
+.wather-app {
+    padding: 20px;
+    border: 2px solid #ff9ab0;;
+    border-radius: 15px;
+    background:white;
+    box-shadow: 0 5px 3px 2px #698474;
+}
+.overview {
+    margin-bottom: 20px;
+}
+.wether-temperarure img {
+    margin-right: 5px;
+    margin-top: -34px;
+    height: 64px;
+    width: 64px;
+}
+.wether-temperarure strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+}
+.wether-temperarure .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
 }
