@@ -17,7 +17,6 @@ ul {
 }
 li {
     list-style: none;
-    text-transform: capitalize;
     margin: 0;
     padding: 0;
     color: rgb(135, 135, 135);
@@ -25,7 +24,9 @@ li {
     font-weight: 100;
     line-height: 19px;
 }
-
+li:first-letter{
+    text-transform: capitalize;
+}
 .wather-app-wrapper{
     width: 600px;
     margin: 30px auto;
