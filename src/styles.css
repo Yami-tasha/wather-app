@@ -53,6 +53,7 @@ li:first-letter{
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
+    font-family: "Caveat", cursive;
 }
 .wether-temperarure .units {
     position: relative;
@@ -69,4 +70,16 @@ li:first-letter{
 }
 .wether-temperarure .active:hover {
     text-decoration: none;
+}
+.btn1 {
+background-color: #698474;
+border: black;
+box-shadow: 0 5px 3px 2px #d6dad7;
+border-radius: 10px;
+}
+.btn1:hover{
+    background-color: #869b8f;
+}
+.btn2 {
+    border-radius: 10px;
 }
