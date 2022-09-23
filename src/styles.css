@@ -62,3 +62,11 @@ li:first-letter{
 .coded {
     font-family: "Caveat", cursive;
 }
+.wether-temperarure .active {
+    color: #698474;
+    cursor: default;
+    text-decoration: none;
+}
+.wether-temperarure .active:hover {
+    text-decoration: none;
+}
