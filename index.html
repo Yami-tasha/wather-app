@@ -18,8 +18,25 @@
     <div class="container">
         <div class="wather-app-wrapper">
         <div class="wather-app">
-            <form id="search-form">
-                <input type="search" placeholder="Tipe a city here"/>
+            <form id="search-form" class="mb-3">
+                <div class="row">
+                    <div class="col-9">
+                        <input
+                        id="city-input"
+                        type="search"
+                        placeholder="Tipe a city name"
+                        class="form-control"
+                        autocomplete="off"
+                      />
+            </div>
+            <div class="col-3">
+                <input
+                type="submit"
+                class="btn btn-primary w-100"
+                id="currentid"
+              />
+            </div>
+            </div>
             </form>
             <div class="overview">
     <h1 id="city"></h1>
