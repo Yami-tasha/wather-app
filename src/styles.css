@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: #878787;
+    color: black;
     font-size: 30px;
     font-weight: 100;
     line-height: 32px;
@@ -82,4 +82,21 @@ border-radius: 10px;
 }
 .btn2 {
     border-radius: 10px;
+}
+.weather-forecast {
+    font-family: "Caveat", cursive;
+    margin-top: 20px;
+    text-align: center;  
+}
+.weather-foecast-date {
+    font-size: 16px;
+    color: #878787;
+    opacity: 0.8;
+}
+.weather-foecast-temperature-min{
+    opacity: 0.5;
+}
+.weather-foecast-temperature {
+    color: #878787;
+    font-size: 13px;
 }
